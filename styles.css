@@ -1,0 +1,286 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do cabeçalho */
+  .cabecalho {
+    background-color: #ffffff; /* Fundo branco */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif; /* Fonte Inter */
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container__imagem {
+    width: 27px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .container__titulo {
+    font-weight: 500;/* Peso da fonte 500 */ 
+    font-size: 18px;   /* Ajusta o tamanho da fonte do titulo */ 
+  }
+  
+  .opcoes {
+    list-style: none;
+    display: flex;
+  }
+  
+  .opcao__item {
+    margin-right: 1rem;
+  }
+  
+  .opcoes__link {
+    text-decoration: none;
+    color: #000000; /* Cor dos links */
+  }
+  
+  .botoes__login button {
+    padding: 0.5rem 1rem;
+    font-weight: 600; /* Peso da fonte 600 */
+    border: none; /* Remove as bordas do botão */
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #000000;
+  }
+  
+  #signUp {
+    background-color: #8E2424; /* Cor de destaque para o botão Cadastrar */
+    color: #ffffff; /* Cor do texto no botão Cadastrar */
+    border-radius: 10px; /* Valor ajustável para controlar o arredondamento */
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+  }
+  
+  .segundo__cabecalho {
+    text-align: center;
+    margin: 3em;
+  }
+  
+  .cabecalho__descricao {
+    margin-bottom: 1.5em;
+    color: #8E2424;
+    font-weight: 600;
+  }
+
+  .cabecalho__Principal {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 1em;
+    color: #101828;
+  }
+
+  .cabecalho__texto {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 12em;
+    color: #667085;
+  }
+
+  .metricas__container {
+    display: flex;
+  }
+
+  .metricas__informacoes{
+    margin: 2em 2em 5em 2em;
+  }
+
+  .subtitulo__metrica {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 60px;
+  }
+
+  .titulo__metrica {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+  }
+
+  .texto__metrica {
+    font-weight: 400;
+    color: #667085;
+  }
+
+  .banner {
+    text-align: center;
+    margin: 3rem;    
+  }
+
+  .botao__vagas {
+    font-weight: 500;
+    font-size: 14px;
+    color: #8E2424;
+    text-decoration: none;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+  }
+
+  .banner__principal {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0.5rem 0;
+    color: #101828;
+  }
+
+  .banner__texto {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #667085;
+  }
+
+  .banner__imagem {
+    margin-top: 1.5rem;
+  }
+
+  .secao__vagas {
+    margin: 2rem 15rem;
+}
+
+  .vaga {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+  .titulo__vagas {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+  .dados__gerais {
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+  .titulo__vagas__secao {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #667085;
+}
+
+  .dados__vagas {
+    display: flex;
+    align-items: center;
+    color: #667085;
+    font-weight: 500;
+}
+
+  .tempo__vagas {
+    margin-right: 1.5rem;
+}
+
+  .salario__vagas {
+    margin-left: 0.5rem;
+}
+
+.depoimentos {
+  background-color: #F5F5DC; 
+  text-align: center;
+  padding: 20px; /* Adicione o espaçamento interno desejado */
+}
+
+
+.depoimentos__texto {
+  color: brown;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.depoimentos__titulo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828; /* Pode ajustar a cor conforme necessário */
+}
+
+.imagem__funcionario {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.nome__desenvolvedor {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.cargo__desenvolvedor {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #667085;
+}
+
+footer {
+  background-color: #F9FAFB;/* Cor de fundo do rodapé, ajuste conforme necessário */
+  color: #101828; /* Cor do texto, ajuste conforme necessário */
+  padding: 50px;
+  text-align: center;
+}
+
+.rodape {
+  max-width: 500px; /* Ajuste a largura máxima conforme necessário */
+  margin: 0 auto; /* Centraliza o bloco de rodapé */
+}
+
+.rodape__titulo {
+  font-family: 'Inter', sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px; /* Espaçamento inferior entre o título e o texto */
+}
+
+.rodape__texto {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px; /* Espaçamento inferior entre o texto e o campo de e-mail */
+  color: #667085;
+}
+
+.contato__email {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px; /* Espaçamento inferior entre o campo de e-mail e o botão */
+}
+
+#signUp {
+  background-color: #c31919; /* Cor de fundo do botão, ajuste conforme necessário */
+  color: #fff; /* Cor do texto do botão, ajuste conforme necessário */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#signUp:hover {
+  background-color: #a01616; /* Cor de fundo do botão ao passar o mouse, ajuste conforme necessário */
+}
+
+/* Adicione um espaçamento superior à imagem se necessário */
+img {
+  margin-top: 10px;
+}
